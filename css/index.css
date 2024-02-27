@@ -173,7 +173,6 @@ main {
     align-items: center;
     height: 300px;
     background: url(../img/callTo.webp) no-repeat center / cover;
-    margin-bottom: 20px;
 }
 
 .containCall,
