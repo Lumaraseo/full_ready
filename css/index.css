@@ -99,14 +99,16 @@ main {
 }
 
 .title-h2,
-.titleh2Paso {
+.titleh2Paso,
+.titleH2Bene {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.btn-more, .btn-call {
+.btn-more,
+.btn-call {
     height: 3rem;
     width: 10rem;
     border: none;
@@ -159,7 +161,7 @@ main {
     font-weight: bold;
 }
 
-.titleh2Paso {
+.titleh2Paso, .titleH2Bene {
     font-size: 35px;
     padding-top: 60px;
 }
@@ -171,21 +173,59 @@ main {
     align-items: center;
     height: 300px;
     background: url(../img/callTo.webp) no-repeat center / cover;
+    margin-bottom: 20px;
 }
-.containCall{
+
+.containCall,
+.containBene,
+.cardBene {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.textCall{
+.textCall {
     text-align: center;
     color: var(--whiteGeneral);
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 40px;
 }
-.btn-call{
+
+.btn-call {
     width: 70%;
+}
+.sectionBene{
+    background-color: var(--titleSmall);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1rem;
+}
+.containBene{
+    display: flex;
+    height: 65rem;
+    border: 2px solid var(--whiteGeneral);
+    margin: 10px;
+    padding: 30px;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.imgBene {
+    height: auto;
+    width: 30%;
+    margin-bottom: 20px;
+    filter: invert(100%);
+
+}
+.textBene{
+    font-size: 20px;
+    color: var(--whiteGeneral);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.titleH2Bene{
+    padding: 80px 50px  40px;
 }
