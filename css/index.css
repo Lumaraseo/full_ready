@@ -146,7 +146,7 @@ main {
     justify-content: center;
     width: fit-content;
     position: absolute;
-    bottom: 45px;
+    bottom: 25px;
     background: #fff;
     left: 50%;
     transform: translate(-50%, 30px);
